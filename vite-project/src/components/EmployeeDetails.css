@@ -1,0 +1,36 @@
+.employee-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.employee-card {
+  padding: 20px;
+  width: 400px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.employee-card h5 {
+  color: #333;
+  text-align: center;
+}
+
+.employee-card .MuiTypography-body1 {
+  margin: 8px 0;
+}
+
+.employee-card button {
+  display: block;
+  width: 100%;
+  background-color: #1976d2;
+  color: white;
+  font-weight: bold;
+}
+
+.employee-card button:hover {
+  background-color: #1565c0;
+}
